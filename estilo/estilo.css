@@ -1,0 +1,54 @@
+body {
+    padding: 15px;
+}
+.container {
+    border: 1px solid #334644;
+    border-radius: 5px;
+}
+
+.avatar {
+    width: 70px;
+    border-radius: 35px;
+    margin: 15px;
+}
+
+.cabecalho {
+    color: #FFFFFF;
+    background-color: #d1d1cd;   
+}
+
+.icone {
+    width: 20px;
+}
+
+.contato, a:link {
+    list-style: none;
+    text-decoration: none;    
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: #b53218;
+}
+
+.cabecalho .media-body h5 {
+    color: #000000;
+}
+
+a[href^="mailto:"] {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border: 1px #000000 solid;
+}
